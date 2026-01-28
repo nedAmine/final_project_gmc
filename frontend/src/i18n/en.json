@@ -1,0 +1,24 @@
+{
+  "dic": { 
+    "products": "Products", "order": "Order", "allCateg": "All categories", "search": "Search",
+    "confirm": "Confirm", "next": "Next", "prev": "Previous"
+  },
+  "cnx": { 
+    "login": "Login", "logout": "Logout", "password": "Password", 
+    "connectWithGoogle": "Connect with google", "noAccSoCreate": "Don't have an account? Create one!",
+    "myAcc": "My account" , "createAcc": "Create an account" , "goToAcc": "Go to my account" 
+  },
+  "nav": { 
+    "about": "About", "shop": "Shop", "contact": "Contact" , "light": "Light", "dark": "Dark" 
+  },
+  "cart": { 
+    "title": "Cart" 
+  },
+  "err": {
+    "backend": "Server side error: {{message}}",
+    "noResponse": "No response from server",
+    "frontend": "Client side error: {{message}}",
+    "unknown": "Unknown error: {{message}}",
+    "api": "API error"
+  }
+}

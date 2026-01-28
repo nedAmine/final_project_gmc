@@ -1,0 +1,24 @@
+{
+  "dic": { 
+    "products": "Produits", "order": "Commander", "allCateg": "Toutes les catégories", "search": "Recherche",
+    "confirm": "Confirmer", "next": "Suivant", "prev": "Précédent"
+  },
+  "cnx": { 
+    "login": "Connexion", "logout": "Déconnexion", "password": "Mot de passe", 
+    "connectWithGoogle": "Se connecter avec google", "noAccSoCreate": "Vous n'avez pas du compte ? Créez une !",
+    "myAcc": "Mon profil", "createAcc": "Créer un compte", "goToAcc": "Accéder à mon compte" 
+  },
+  "nav": { 
+    "about": "À propos", "shop": "Boutique", "contact": "Contact", "light": "Claire", "dark": "Sombre" 
+  },
+  "cart": { 
+    "title": "Panier" 
+  },
+  "err": {
+    "backend": "Erreur côté serveur: {{message}}",
+    "noResponse": "Pas de réponse du serveur",
+    "frontend": "Erreur côté client: {{message}}",
+    "unknown": "Erreur non reconnue: {{message}}",
+    "api": "Erreur API"
+  }
+}

@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  transition: all 0.3s ease;
+  color: var(--text);
+}
+
+.navbar.scrolled {
+  background: var(--bg);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar span,
+.navbar .cart,
+.navbar .lang,
+.navbar .theme,
+.navbar .user {
+  color: var(--text);
+}
+
+.navbar .user.connected {
+  color: var(--primary);
+}
+
+.navbar .cart {
+  font-weight: 600;
+}
