@@ -22,12 +22,12 @@ app.use("/api/orders", orderRoutes);
 
 app.use("/uploads", express.static("uploads"));
 
-/*// Route test
+// Route test
 app.get("/health", (req, res) => {
   res.status(200).json({
     status: "OK",
     message: "Server is running (u)"
   });
-});*/
+});
 
 export default app;

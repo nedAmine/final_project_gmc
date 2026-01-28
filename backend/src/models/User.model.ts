@@ -37,7 +37,7 @@ const userSchema = new Schema<IUser>(
 );
 
 //calculated field
-userSchema.pre<IUser>("save", async function (next) {
+userSchema.pre<IUser>("save", async function () {
     //build name
     const fullName = `${this.firstname ?? ""} ${this.lastname ?? ""}`.trim();
     this.name = !fullName ? this.login : fullName;
